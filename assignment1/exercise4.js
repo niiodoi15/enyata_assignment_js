@@ -6,7 +6,7 @@ const firstName = fullName.split(' ')[0];
 const lastName = fullName.split(' ')[1];
 
 // Step 3: Answer
-const capitalizedFirstName = firstName.charAt(0).toUpperCase() + firstName.slice(1);
+const capitalizedFirstName = firstName.charAt(0).toUpperCase();
 
 // Step 4: Answer
 const reversedLastName = lastName.split('').reverse().join('');

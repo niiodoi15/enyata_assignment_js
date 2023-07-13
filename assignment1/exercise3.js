@@ -5,6 +5,7 @@
 let principalAmount = 1000;
 let interestRate = 0.05;
 let timePeriod = 5;
+let n = 12;
 
 // Step 2:Answer
 let compoundInterest = principalAmount * Math.pow(1 + interestRate / 12, 12 * timePeriod);
